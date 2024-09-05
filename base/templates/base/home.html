@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabin Bhandari</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/rabin.jpg' %}" alt="Profile Picture">
+                    <hr>
+                    <h4>Hi, I'm Rabin Bhandari</h4>
+                    <p>A DevOps/Cloud Engineer, AWS Community Builder</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4>Introduction</h4>
+                    <hr>
+                    <p>A DevOps/Cloud Engineer with several years of experience, working in a professional and challenging environment with an emphasis on IT operations. Able to operate under pressure with minimum guidance. Always striving for improvement to provide the best solutions. Very keen on improving skills, knowledge, and experience. Looking forward to working on more innovative technologies that can solve real-world problems or help in the progress of company projects.</p>
+
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/robeenbhandari" target="_blank">
+                            <img src="{% static 'images/facebook.png' %}" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/rabin-bhandari-058ba5156/" target="_blank">
+                            <img src="{% static 'images/linkedin.png' %}" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="https://medium.com/@rabinbhandari44" target="_blank">
+                            <img src="{% static 'images/medium.png' %}" alt="Medium" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Experience Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body experience-section">
+                    <h4>Experience</h4>
+                    <hr>
+                    <ul>
+                        <li><strong>DevOps Engineer - Genese</strong> (2022 - Present)
+                            <p>Leading DevOps initiatives, automating infrastructure with Terraform, and ensuring resilience and scalability in multi-region AWS deployments.</p>
+                        </li>
+                        <li><strong>DevOps Engineer - Spiralogics</strong> (2019 - 2022)
+                            <p>Developed CI/CD pipelines using CodePipeline, implemented disaster recovery plans, and maintained high availability for critical applications.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Education Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body education-section">
+                    <h4>Education</h4>
+                    <hr>
+                    <ul>
+                        <li><strong>Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)</strong> - Tribhuvan University (2013 - 2017)</li>
+                        <li><strong>Master of Business Administration (MBA)</strong> - Purbaanchal University (2020 - 2022)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Certifications Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body certification-section">
+                    <h4>Certifications</h4>
+                    <hr>
+                    <div class="row">
+                        <!-- AWS Certification -->
+                        <div class="col-md-6 text-center">
+                            <h5><a href="https://www.credly.com/badges/3824637f-a621-4738-829f-13ed79ee9c9a/linked_in_profile" target="_blank">AWS Certified DevOps Engineer – Professional</a></h5>
+                            <img id="certification-img" src="{% static 'images/aws.png' %}" alt="AWS Certification">
+                        </div>
+                        <!-- Google Certification -->
+                        <div class="col-md-6 text-center">
+                            <h5><a href="https://www.credential.net/4cc6a254-9b45-45ba-8f8a-abc2d8728d07?key=8b2ccff7bcb44aa718012ff2d350605c8975f98b864bb0c7d6effa7fb954b99d&record_view=true" target="_blank">Google Cloud Engineer</a></h5>
+                            <img id="certification-img" src="{% static 'images/google.png' %}" alt="Google Certification">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- AWS Community Builder Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body community-builder-section">
+                    <h4>AWS Community Builder</h4>
+                    <hr>
+                    <p>I'm honored to be an AWS Community Builder for the years 2023 and 2024. This recognition highlights my contributions and active participation in the AWS community, sharing knowledge and fostering a collaborative environment for cloud enthusiasts and professionals.</p>
+                    <img id="certification-img" src="{% static 'images/cb.png' %}" alt="AWS Community Builder" class="community-builder-img">
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

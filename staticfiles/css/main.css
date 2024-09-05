@@ -1,0 +1,138 @@
+/* General body styles */
+body {
+    background-color: #f4f4f9; /* Light grey background for a clean look */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Darker text color for better readability */
+    margin-bottom: 50px;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Profile Picture */
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid #ff6f61; /* Coral border around profile picture */
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff; /* White card background */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Section Title styling */
+h4 {
+    color: #333; /* Dark grey for section titles */
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #ff6f61, #d5a6c4); /* Gradient line */
+    margin: 20px 0;
+}
+
+/* Section titles with underline */
+.card-body h4 {
+    border-bottom: 2px solid #ff6f61; /* Coral underline for section titles */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #ff6f61; /* Coral color for section titles */
+}
+
+/* Text and List Styling */
+p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666; /* Medium grey for text */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ff6f61; /* Coral bullets */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Section Backgrounds */
+.experience-section, .education-section, .certification-section {
+    background-color: #ffffff; /* White backgrounds for sections */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for section depth */
+}
+
+/* Button styling */
+.btn-custom {
+    background-color: #ff6f61; /* Coral background */
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #e65c5c; /* Slightly darker coral */
+}
+
+/* Certification image styling */
+#certification-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Round certification images */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Social media links */
+.social-links {
+    margin-top: 15px;
+    text-align: center; /* Center align social links */
+    background: linear-gradient(135deg, #ff6f61, #d5a6c4); /* Gradient background */
+    padding: 15px; /* Ensure padding is added for visibility */
+    border-radius: 10px; /* Rounded corners for the background */
+}
+
+.social-icon {
+    width: 50px; /* Larger size for better visibility */
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%; /* Makes the icons round */
+    transition: transform 0.3s ease;
+    /* Restore original colors */
+    filter: none;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Slightly larger on hover */
+}
